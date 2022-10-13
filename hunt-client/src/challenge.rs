@@ -10,7 +10,7 @@ pub struct Challenge {
 
 impl Challenge {
     pub fn sorted(self) -> Sorted {
-        /* 1. make collection of numbers from String */
+        /* 1. make collection of bytes from String */
         /* 2. sort collection */
         /* 3. result in Sorted struct */
 
@@ -24,6 +24,7 @@ impl Challenge {
 
 #[derive(Debug)]
 pub struct Sorted {
+    /* FILL THIS: what type will sorted produce for numbers? */
     pub numbers: FILL_ME,
     pub sorted_indices: Vec<usize>,
 }
